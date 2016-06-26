@@ -1,0 +1,22 @@
+{
+  "name": "node-pifacecad",
+  "version": "1.0.0",
+  "description": "control pifacecad with node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leajaeho/node-pifacecad.git"
+  },
+  "keywords": [
+    "piface"
+  ],
+  "author": "leejaeho",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leajaeho/node-pifacecad/issues"
+  },
+  "homepage": "https://github.com/leajaeho/node-pifacecad#readme"
+}
