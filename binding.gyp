@@ -1,6 +1,6 @@
 {
   "targets": [{
-    "target_name": "piaddon",
+    "target_name": "pifacecad",
     "sources": ["piface.cc"],
     "include_dirs": ["./lib/"],
     "link_settings": {
