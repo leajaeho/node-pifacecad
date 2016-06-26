@@ -9,6 +9,6 @@
         "-lmcp23s17",
       ]
     },
-    "cflags": ["-std=c++14"]
+    "cflags": ["-std=c++11"]
   }]
 }
