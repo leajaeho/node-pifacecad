@@ -8,7 +8,7 @@
 #include <sys/types.h>
 #include <sys/ioctl.h>
 #include <linux/spi/spidev.h>
-#include <mcp23s17.h>
+#include "mcp23s17.h"
 
 
 static const uint8_t spi_mode = 0;
