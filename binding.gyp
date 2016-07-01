@@ -5,7 +5,7 @@
     "include_dirs": ["./src/"],
     "link_settings": {
       "libraries": [
-        "../lib/libmcp23s17.a",
+        "-lmcp23s17",
         "../lib/libpifacecad.a"
       ]
     },
