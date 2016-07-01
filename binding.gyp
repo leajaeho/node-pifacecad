@@ -2,11 +2,11 @@
   "targets": [{
     "target_name": "pifacecad",
     "sources": ["piface.cc"],
-    "include_dirs": ["./lib/"],
+    "include_dirs": ["./src/"],
     "link_settings": {
       "libraries": [
-        "../libpifacecad.a",
-        "-lmcp23s17",
+        "../lib/libmcp23d17.a",
+        "../lib/libpifacecad.a"
       ]
     },
     "cflags": ["-std=c++11"]
