@@ -5,6 +5,7 @@
   "main": "build/Release/pifacecad.node",
   "scripts": {
     "preinstall": "chmod +x ./install.sh && ./install.sh",
+    "install": "node-gyp configure build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
