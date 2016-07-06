@@ -44,5 +44,5 @@ clean:
 	rm -f $(OBJECTS)
 
 install: $(BINARY)
-	install src/mcp23s17.h ../lib
-	install $(BINARY) ../lib
+	install src/mcp23s17.h /usr/local/include
+	install $(BINARY) /usr/local/lib
