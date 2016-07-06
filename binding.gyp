@@ -5,8 +5,8 @@
     "include_dirs": ["./src/"],
     "link_settings": {
       "libraries": [
-        "../lib/libmcp23s17.a",
-        "../lib/libpifacecad.a"
+        "../lib/libpifacecad.a",
+        "-lmcp23s17"
       ]
     },
     "cflags": ["-std=c++11"]
