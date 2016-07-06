@@ -6,7 +6,7 @@
     "link_settings": {
       "libraries": [
         "../lib/libpifacecad.a",
-        "-lmcp23s17"
+        "../lib/libmcp23s17.a"
       ]
     },
     "cflags": ["-std=c++11"]

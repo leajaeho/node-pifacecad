@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdint.h>
 #include <unistd.h>
-#include <mcp23s17.h>
+#include "mcp23s17.h"
 #include "pifacecad.h"
 
 
